@@ -15,5 +15,5 @@ jobs:
           GIPHY_API_KEY: ${{ secrets.GIPHY_API_KEY }}
         with:
           trigger: '[".*LGTM! by Naufal.*"]'
-          override: true
+          overide: true
           source: 'giphy'
